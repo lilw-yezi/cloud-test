@@ -1,0 +1,12 @@
+
+test:
+  testname: "zhangsan"
+server:
+  port: 18080
+spring:
+  application:
+    name: nacostest1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.224.234.152:8848

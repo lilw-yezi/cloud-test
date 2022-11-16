@@ -1,0 +1,14 @@
+server:
+  port: 18088
+spring:
+  application:
+    name: nacos-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.224.234.152:8848
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启注册中心路由
